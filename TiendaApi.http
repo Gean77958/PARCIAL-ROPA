@@ -1,0 +1,26 @@
+@TiendaApi_HostAddress = http://localhost:5180
+
+GET {{TiendaApi_HostAddress}}/api/productos
+Accept: application/json
+
+###
+
+GET {{TiendaApi_HostAddress}}/api/productos?categoriaId=1&soloOferta=true
+Accept: application/json
+
+###
+
+GET {{TiendaApi_HostAddress}}/api/categorias
+Accept: application/json
+
+###
+
+GET {{TiendaApi_HostAddress}}/api/clientes?correo=renzo.quispe@example.com
+Accept: application/json
+
+###
+
+GET {{TiendaApi_HostAddress}}/api/pedidos?clienteId=1
+Accept: application/json
+
+###
