@@ -50,7 +50,7 @@ var categorias = new List<Categoria>
 var productos = new List<Producto>
 {
     new Producto { Id = 1, Codigo = "POL001", Nombre = "Polo Básico Cuello Redondo", CategoriaId = 1, Genero = "Hombre", Talla = "M", Color = "Negro", Precio = 39.90m, Stock = 25, Marca = "Urban Style", Material = "Algodón", Temporada = "Todo el año", Descuento = 0, Imagen = "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=800&q=80", Descripcion = "Polo básico de algodón, ideal para uso diario." },
-    new Producto { Id = 2, Codigo = "POL002", Nombre = "Polo Básico Blanco", CategoriaId = 1, Genero = "Hombre", Talla = "L", Color = "Blanco", Precio = 39.90m, Stock = 18, Marca = "Urban Style", Material = "Algodón", Temporada = "Todo el año", Descuento = 10, Imagen = "https://images.unsplash.com/photo-1583743814966-8936f37f3846?auto=format&fit=crop&w=800&q=80", Descripcion = "Polo blanco de algodón con diseño clásico." },
+    new Producto { Id = 2, Codigo = "POL002", Nombre = "Polo Básico Blanco", CategoriaId = 1, Genero = "Hombre", Talla = "L", Color = "Blanco", Precio = 39.90m, Stock = 18, Marca = "Urban Style", Material = "Algodón", Temporada = "Todo el año", Descuento = 10, Imagen = "https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=800&q=80", Descripcion = "Polo blanco de algodón con diseño clásico." },
     new Producto { Id = 3, Codigo = "POL003", Nombre = "Polo Oversize Negro", CategoriaId = 1, Genero = "Mujer", Talla = "S", Color = "Negro", Precio = 49.90m, Stock = 12, Marca = "Street Wear", Material = "Algodón Premium", Temporada = "Verano", Descuento = 15, Imagen = "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=800&q=80", Descripcion = "Polo oversize de estilo urbano y moderno." },
     new Producto { Id = 4, Codigo = "POL004", Nombre = "Polo Deportivo Dry Fit", CategoriaId = 1, Genero = "Hombre", Talla = "XL", Color = "Azul", Precio = 59.90m, Stock = 20, Marca = "Sport Max", Material = "Poliéster", Temporada = "Todo el año", Descuento = 5, Imagen = "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=800&q=80", Descripcion = "Polo deportivo ligero con tecnología de secado rápido." },
     new Producto { Id = 5, Codigo = "CAM001", Nombre = "Camisa Casual Manga Larga", CategoriaId = 2, Genero = "Hombre", Talla = "M", Color = "Celeste", Precio = 79.90m, Stock = 14, Marca = "Classic Wear", Material = "Algodón", Temporada = "Primavera", Descuento = 0, Imagen = "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=800&q=80", Descripcion = "Camisa casual de manga larga para ocasiones informales." },
@@ -64,21 +64,21 @@ var productos = new List<Producto>
     new Producto { Id = 13, Codigo = "VES002", Nombre = "Vestido Elegante Negro", CategoriaId = 4, Genero = "Mujer", Talla = "M", Color = "Negro", Precio = 189.90m, Stock = 6, Marca = "Bella Moda", Material = "Poliéster", Temporada = "Todo el año", Descuento = 15, Imagen = "https://images.unsplash.com/photo-1566174053879-31528523f8ae?auto=format&fit=crop&w=800&q=80", Descripcion = "Vestido negro elegante para ocasiones especiales." },
     new Producto { Id = 14, Codigo = "VES003", Nombre = "Vestido Casual Corto", CategoriaId = 4, Genero = "Mujer", Talla = "L", Color = "Azul", Precio = 99.90m, Stock = 15, Marca = "Urban Style", Material = "Algodón", Temporada = "Verano", Descuento = 5, Imagen = "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?auto=format&fit=crop&w=800&q=80", Descripcion = "Vestido casual corto para uso diario." },
     new Producto { Id = 15, Codigo = "CHA001", Nombre = "Casaca Denim", CategoriaId = 5, Genero = "Hombre", Talla = "L", Color = "Azul", Precio = 179.90m, Stock = 8, Marca = "Denim Pro", Material = "Denim", Temporada = "Otoño", Descuento = 10, Imagen = "https://images.unsplash.com/photo-1578681994506-b8f463449011?auto=format&fit=crop&w=800&q=80", Descripcion = "Casaca denim clásica para días frescos." },
-    new Producto { Id = 16, Codigo = "CHA002", Nombre = "Casaca Impermeable", CategoriaId = 5, Genero = "Hombre", Talla = "M", Color = "Negro", Precio = 219.90m, Stock = 5, Marca = "Adventure", Material = "Nylon", Temporada = "Invierno", Descuento = 20, Imagen = "https://images.unsplash.com/photo-1544966503-7cc5ac882d5f?auto=format&fit=crop&w=800&q=80", Descripcion = "Casaca impermeable para actividades al aire libre." },
+    new Producto { Id = 16, Codigo = "CHA002", Nombre = "Casaca Impermeable", CategoriaId = 5, Genero = "Hombre", Talla = "M", Color = "Negro", Precio = 219.90m, Stock = 5, Marca = "Adventure", Material = "Nylon", Temporada = "Invierno", Descuento = 20, Imagen = "https://images.unsplash.com/photo-1556821840-3a63f95609a7?auto=format&fit=crop&w=800&q=80", Descripcion = "Casaca impermeable para actividades al aire libre." },
     new Producto { Id = 17, Codigo = "CHA003", Nombre = "Casaca de Cuero", CategoriaId = 5, Genero = "Mujer", Talla = "M", Color = "Marrón", Precio = 299.90m, Stock = 4, Marca = "Premium Leather", Material = "Cuero sintético", Temporada = "Invierno", Descuento = 10, Imagen = "https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=800&q=80", Descripcion = "Casaca de estilo clásico con acabado tipo cuero." },
     new Producto { Id = 18, Codigo = "ZAP001", Nombre = "Zapatillas Urbanas", CategoriaId = 6, Genero = "Hombre", Talla = "42", Color = "Blanco", Precio = 159.90m, Stock = 10, Marca = "Urban Shoes", Material = "Sintético", Temporada = "Todo el año", Descuento = 5, Imagen = "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=800&q=80", Descripcion = "Zapatillas urbanas cómodas para uso diario." },
     new Producto { Id = 19, Codigo = "ZAP002", Nombre = "Zapatillas Deportivas", CategoriaId = 6, Genero = "Mujer", Talla = "38", Color = "Rosado", Precio = 189.90m, Stock = 7, Marca = "Sport Max", Material = "Malla", Temporada = "Todo el año", Descuento = 15, Imagen = "https://images.unsplash.com/photo-1552346154-21d32810aba3?auto=format&fit=crop&w=800&q=80", Descripcion = "Zapatillas deportivas ligeras para entrenamiento." },
     new Producto { Id = 20, Codigo = "ZAP003", Nombre = "Botines de Cuero", CategoriaId = 6, Genero = "Mujer", Talla = "37", Color = "Negro", Precio = 249.90m, Stock = 5, Marca = "Premium Leather", Material = "Cuero sintético", Temporada = "Invierno", Descuento = 20, Imagen = "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&w=800&q=80", Descripcion = "Botines elegantes para combinar con diferentes estilos." },
     new Producto { Id = 21, Codigo = "SUD001", Nombre = "Hoodie Básico", CategoriaId = 7, Genero = "Hombre", Talla = "L", Color = "Gris", Precio = 119.90m, Stock = 17, Marca = "Street Wear", Material = "Algodón", Temporada = "Invierno", Descuento = 10, Imagen = "https://images.unsplash.com/photo-1556821840-3a63f95609a7?auto=format&fit=crop&w=800&q=80", Descripcion = "Hoodie cómodo con capucha y bolsillo frontal." },
     new Producto { Id = 22, Codigo = "SUD002", Nombre = "Hoodie Oversize", CategoriaId = 7, Genero = "Mujer", Talla = "M", Color = "Lila", Precio = 129.90m, Stock = 12, Marca = "Urban Style", Material = "Algodón", Temporada = "Invierno", Descuento = 15, Imagen = "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?auto=format&fit=crop&w=800&q=80", Descripcion = "Sudadera oversize de estilo juvenil." },
-    new Producto { Id = 23, Codigo = "FAL001", Nombre = "Falda Plisada", CategoriaId = 8, Genero = "Mujer", Talla = "S", Color = "Negro", Precio = 89.90m, Stock = 10, Marca = "Bella Moda", Material = "Poliéster", Temporada = "Primavera", Descuento = 10, Imagen = "https://images.unsplash.com/photo-1583496661160-fb5886a13d27?auto=format&fit=crop&w=800&q=80", Descripcion = "Falda plisada de estilo elegante y juvenil." },
+    new Producto { Id = 23, Codigo = "FAL001", Nombre = "Falda Plisada", CategoriaId = 8, Genero = "Mujer", Talla = "S", Color = "Negro", Precio = 89.90m, Stock = 10, Marca = "Bella Moda", Material = "Poliéster", Temporada = "Primavera", Descuento = 10, Imagen = "https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=800&q=80", Descripcion = "Falda plisada de estilo elegante y juvenil." },
     new Producto { Id = 24, Codigo = "FAL002", Nombre = "Falda Denim", CategoriaId = 8, Genero = "Mujer", Talla = "M", Color = "Azul", Precio = 79.90m, Stock = 14, Marca = "Denim Pro", Material = "Denim", Temporada = "Verano", Descuento = 5, Imagen = "https://images.unsplash.com/photo-1582142306909-195724d33ffc?auto=format&fit=crop&w=800&q=80", Descripcion = "Falda denim corta para un look casual." },
     new Producto { Id = 25, Codigo = "ACC001", Nombre = "Gorra Urbana", CategoriaId = 9, Genero = "Unisex", Talla = "Única", Color = "Negro", Precio = 39.90m, Stock = 30, Marca = "Urban Style", Material = "Algodón", Temporada = "Todo el año", Descuento = 0, Imagen = "https://images.unsplash.com/photo-1521369909029-2afed882baee?auto=format&fit=crop&w=800&q=80", Descripcion = "Gorra urbana ajustable." },
     new Producto { Id = 26, Codigo = "ACC002", Nombre = "Bufanda de Invierno", CategoriaId = 9, Genero = "Unisex", Talla = "Única", Color = "Gris", Precio = 49.90m, Stock = 22, Marca = "Winter Fashion", Material = "Lana", Temporada = "Invierno", Descuento = 10, Imagen = "https://images.unsplash.com/photo-1520903920243-00d872a2d1c9?auto=format&fit=crop&w=800&q=80", Descripcion = "Bufanda abrigadora para temporada de frío." },
     new Producto { Id = 27, Codigo = "ACC003", Nombre = "Cinturón Clásico", CategoriaId = 9, Genero = "Hombre", Talla = "M", Color = "Marrón", Precio = 59.90m, Stock = 18, Marca = "Classic Wear", Material = "Cuero sintético", Temporada = "Todo el año", Descuento = 5, Imagen = "https://images.unsplash.com/photo-1624222247344-550fb60583dc?auto=format&fit=crop&w=800&q=80", Descripcion = "Cinturón clásico para vestir o uso casual." },
     new Producto { Id = 28, Codigo = "ACC004", Nombre = "Cartera Casual", CategoriaId = 9, Genero = "Mujer", Talla = "Única", Color = "Beige", Precio = 89.90m, Stock = 9, Marca = "Bella Moda", Material = "Cuero sintético", Temporada = "Todo el año", Descuento = 15, Imagen = "https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=800&q=80", Descripcion = "Cartera casual con varios compartimentos." },
     new Producto { Id = 29, Codigo = "DEP001", Nombre = "Short Deportivo", CategoriaId = 10, Genero = "Hombre", Talla = "M", Color = "Negro", Precio = 69.90m, Stock = 20, Marca = "Sport Max", Material = "Poliéster", Temporada = "Verano", Descuento = 10, Imagen = "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?auto=format&fit=crop&w=800&q=80", Descripcion = "Short deportivo ligero para entrenamiento." },
-    new Producto { Id = 30, Codigo = "DEP002", Nombre = "Leggings Deportivos", CategoriaId = 10, Genero = "Mujer", Talla = "S", Color = "Negro", Precio = 79.90m, Stock = 16, Marca = "Sport Max", Material = "Poliéster Stretch", Temporada = "Todo el año", Descuento = 15, Imagen = "https://images.unsplash.com/photo-1506629905607-d9e0a5d0a8a5?auto=format&fit=crop&w=800&q=80", Descripcion = "Leggings deportivos de alta elasticidad." },
+    new Producto { Id = 30, Codigo = "DEP002", Nombre = "Leggings Deportivos", CategoriaId = 10, Genero = "Mujer", Talla = "S", Color = "Negro", Precio = 79.90m, Stock = 16, Marca = "Sport Max", Material = "Poliéster Stretch", Temporada = "Todo el año", Descuento = 15, Imagen = "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=800&q=80", Descripcion = "Leggings deportivos de alta elasticidad." },
     new Producto { Id = 31, Codigo = "DEP003", Nombre = "Polo Deportivo Mujer", CategoriaId = 10, Genero = "Mujer", Talla = "M", Color = "Azul", Precio = 64.90m, Stock = 19, Marca = "Sport Max", Material = "Dry Fit", Temporada = "Todo el año", Descuento = 5, Imagen = "https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=800&q=80", Descripcion = "Polo deportivo transpirable para entrenamiento." },
     new Producto { Id = 32, Codigo = "DEP004", Nombre = "Buzo Deportivo", CategoriaId = 10, Genero = "Unisex", Talla = "L", Color = "Gris", Precio = 149.90m, Stock = 8, Marca = "Sport Max", Material = "Algodón", Temporada = "Invierno", Descuento = 20, Imagen = "https://images.unsplash.com/photo-1556906781-9a412961c28c?auto=format&fit=crop&w=800&q=80", Descripcion = "Buzo deportivo completo para entrenamiento y uso casual." },
 };
@@ -196,7 +196,7 @@ app.MapDelete("/api/categorias/{id:int}", (int id) =>
 // =====================================================================
 // PRODUCTOS  (recurso principal; el filtrado ocurre en el servidor
 // mediante parámetros de consulta: ?categoriaId=&q=&genero=&min=&max=&soloOferta=)
-// =====================================================================
+
 app.MapGet("/api/productos", (int? categoriaId, string? q, string? genero, decimal? min, decimal? max, bool? soloOferta) =>
 {
     IEnumerable<Producto> resultado = productos;
@@ -215,7 +215,6 @@ app.MapGet("/api/productos", (int? categoriaId, string? q, string? genero, decim
 
     if (!string.IsNullOrWhiteSpace(genero))
         resultado = resultado.Where(p => p.Genero.Equals(genero, StringComparison.OrdinalIgnoreCase));
-
     // El rango de precio se aplica sobre el precio FINAL (con descuento),
     // que es lo que el cliente realmente paga.
     if (min.HasValue)
@@ -414,10 +413,6 @@ app.MapGet("/api/pedidos/{id:int}", (int id) =>
         ? Results.Ok(pedido)
         : Results.NotFound(new { message = "Pedido no encontrado." });
 });
-
-// El cliente solo envía QUÉ productos y CUÁNTOS. Los precios y el total los
-// calcula el servidor a partir de los productos reales: nunca se confía en
-// un precio enviado desde el navegador (cualquiera podría alterarlo).
 app.MapPost("/api/pedidos", (NuevoPedido nuevo) =>
 {
     if (nuevo.Items is null || nuevo.Items.Count == 0)
@@ -425,9 +420,6 @@ app.MapPost("/api/pedidos", (NuevoPedido nuevo) =>
 
     if (!clientes.Any(c => c.Id == nuevo.ClienteId))
         return Results.BadRequest(new { message = "El cliente indicado no existe." });
-
-    // Si el mismo producto llega repetido, se suman las cantidades antes de
-    // validar el stock (evita saltarse el control enviando líneas separadas).
     var solicitados = nuevo.Items
         .GroupBy(i => i.ProductoId)
         .Select(g => new NuevoItem(g.Key, g.Sum(i => i.Cantidad)))
@@ -436,8 +428,6 @@ app.MapPost("/api/pedidos", (NuevoPedido nuevo) =>
     lock (candado)
     {
         var items = new List<ItemPedido>();
-
-        // Primero se valida TODO; el stock solo se descuenta si todo es válido.
         foreach (var solicitado in solicitados)
         {
             if (solicitado.Cantidad <= 0)
