@@ -280,7 +280,7 @@ app.MapDelete("/api/productos/{id:int}", (int id) =>
         return Results.NotFound(new { message = "Producto no encontrado." });
 
     productos.Remove(producto);
-    return Results.NoContent();
+    return Results.Ok(new { mensaje = $"Producto con ID {id} eliminado correctamente", eliminado = producto });
 });
 
 // =====================================================================
